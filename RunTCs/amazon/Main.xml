@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Suites">
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="environment" value="prod"/>
+    <parameter name="headless" value="0"/>
+    <parameter name="grid" value="0"/>
+
+    <listeners>
+        <listener class-name="core.libs.ListenerTest"></listener>
+    </listeners>
+
+    <test name="Dev">
+        <classes>
+
+            <class name="amazon.testCases.Login">
+                <methods>
+                    <include name="validAccount"/>
+                </methods>
+            </class>
+
+            <class name="amazon.testCases.SearchResult">
+                <methods>
+                    <include name="searchItems"/>
+                </methods>
+            </class>
+
+            <class name="amazon.testCases.Cart">
+                <methods>
+                    <include name="verifyCart"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+</suite>

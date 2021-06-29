@@ -14,7 +14,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="testCases.choTot" level="debug" />
+        <Logger name="testCases.amazon" level="debug" />
         <Root level="info">
             <AppenderRef ref="STDOUT" />
             <AppenderRef ref="FILE" />

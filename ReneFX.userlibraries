@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.beust:jcommander:1.48">
+    <archive path="/Users/tiennd/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar" />
+  </library>
+  <library name="Maven: com.google.code.findbugs:jsr305:1.3.9">
+    <archive path="/Users/tiennd/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar" />
+  </library>
+  <library name="Maven: com.google.errorprone:error_prone_annotations:2.1.3">
+    <archive path="/Users/tiennd/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar" />
+  </library>
+  <library name="Maven: com.google.guava:guava:25.0-jre">
+    <archive path="/Users/tiennd/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar" />
+  </library>
+  <library name="Maven: com.google.j2objc:j2objc-annotations:1.1">
+    <archive path="/Users/tiennd/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar" />
+  </library>
+  <library name="Maven: com.relevantcodes:extentreports:2.41.2">
+    <archive path="/Users/tiennd/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar" />
+  </library>
+  <library name="Maven: com.squareup.okhttp3:okhttp:3.11.0">
+    <archive path="/Users/tiennd/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar" />
+  </library>
+  <library name="Maven: com.squareup.okio:okio:1.14.0">
+    <archive path="/Users/tiennd/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar" />
+  </library>
+  <library name="Maven: core.commons-codec:core.commons-codec:1.9">
+    <archive path="/Users/tiennd/.m2/repository/core.commons-codec/core.commons-codec/1.9/core.commons-codec-1.9.jar" />
+  </library>
+  <library name="Maven: dom4j:dom4j:1.6.1">
+    <archive path="/Users/tiennd/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar" />
+  </library>
+  <library name="Maven: net.bytebuddy:byte-buddy:1.8.15">
+    <archive path="/Users/tiennd/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar" />
+  </library>
+  <library name="Maven: org.apache.core.commons:core.commons-exec:1.3">
+    <archive path="/Users/tiennd/.m2/repository/org/apache/core.commons/core.commons-exec/1.3/core.commons-exec-1.3.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi:3.11">
+    <archive path="/Users/tiennd/.m2/repository/org/apache/poi/poi/3.11/poi-3.11.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml:3.9">
+    <archive path="/Users/tiennd/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.poi:poi-ooxml-schemas:3.9">
+    <archive path="/Users/tiennd/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar" />
+  </library>
+  <library name="Maven: org.apache.xmlbeans:xmlbeans:2.3.0">
+    <archive path="/Users/tiennd/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar" />
+  </library>
+  <library name="Maven: org.beanshell:bsh:2.0b4">
+    <archive path="/Users/tiennd/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar" />
+  </library>
+  <library name="Maven: org.checkerframework:checker-compat-qual:2.0.0">
+    <archive path="/Users/tiennd/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar" />
+  </library>
+  <library name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14">
+    <archive path="/Users/tiennd/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar" />
+  </library>
+  <library name="Maven: org.freemarker:freemarker:2.3.23">
+    <archive path="/Users/tiennd/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar" />
+  </library>
+  <library name="Maven: org.jsoup:jsoup:1.8.3">
+    <archive path="/Users/tiennd/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar" />
+  </library>
+  <library name="Maven: org.mongodb:bson:3.0.4">
+    <archive path="/Users/tiennd/.m2/repository/org/mongodb/bson/3.0.4/bson-3.0.4.jar" />
+  </library>
+  <library name="Maven: org.mongodb:mongodb-driver:3.0.4">
+    <archive path="/Users/tiennd/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar" />
+  </library>
+  <library name="Maven: org.mongodb:mongodb-driver-core:3.0.4">
+    <archive path="/Users/tiennd/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-api:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-java:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-opera-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-remote-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-safari-driver:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.seleniumhq.selenium:selenium-support:3.141.59">
+    <archive path="/Users/tiennd/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar" />
+  </library>
+  <library name="Maven: org.testng:testng:6.9.10">
+    <archive path="/Users/tiennd/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar" />
+  </library>
+  <library name="Maven: org.xerial:sqlite-jdbc:3.8.11.1">
+    <archive path="/Users/tiennd/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar" />
+  </library>
+  <library name="Maven: stax:stax-api:1.0.1">
+    <archive path="/Users/tiennd/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar" />
+  </library>
+  <library name="Maven: xml-apis:xml-apis:1.4.01">
+    <archive path="/Users/tiennd/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar" />
+  </library>
+</eclipse-userlibraries>
+

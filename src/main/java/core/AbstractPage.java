@@ -1,8 +1,7 @@
 package core;
 
-import core.config.Path;
+import core.config.Paths;
 import core.config.TimeOut;
-import okio.Timeout;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.*;
@@ -401,7 +400,7 @@ public class AbstractPage {
     protected void uploadMedia(WebDriver driver, String locator, String fileName) throws InterruptedException {
         printInfo(fileName);
         Thread.sleep(1000);
-        String filePath = Path.PATH_SYSTEM + "/src/main/resources/media/" + fileName;
+        String filePath = Paths.PATH_SYSTEM + "/src/main/resources/media/" + fileName;
         WebElement element = driver.findElement(By.xpath(locator));
         element.sendKeys(filePath);
     }
