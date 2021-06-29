@@ -1,6 +1,7 @@
 1. Install:
    - java(version 12)
    - intellij IDE
+   - chrome browser
     
 2. Quick start:
     * Run project via RunTCs\amazon\Main.xml
