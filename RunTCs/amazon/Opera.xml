@@ -1,0 +1,24 @@
+<suite name="Chrome">
+    <parameter name="browser" value="chrome"/>
+    <test name="Chrome">
+        <classes>
+            <class name="amazon.testCases.Login">
+                <methods>
+                    <include name="validAccount"/>
+                </methods>
+            </class>
+
+            <!--<class name="amazon.testCases.SearchResult">
+                <methods>
+                    <include name="searchItems"/>
+                </methods>
+            </class>
+
+            <class name="amazon.testCases.Cart">
+                <methods>
+                    <include name="verifyCart"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>
