@@ -21,12 +21,15 @@ public class Login extends AbstractTest {
     }
 
     @Test(dataProvider = "dataSignIn")
-    public void validAccount(String userName, String passWord) {
+    public void validAccount(String userName, String passWord) throws InterruptedException {
+        log.info("currentThread: " + Thread.currentThread().getId());
         loginPO.gotoLoginPage();
         loginPO.inputUserName(userName);
         loginPO.clickContinue();
         loginPO.inputPassWord(passWord);
+        sleep(2);
         loginPO.clickLogin();
+        sleep(2);
         String userNameActual = dashBoardPO.getUserName();
         verifyContains(userNameActual, "Tien");
     }

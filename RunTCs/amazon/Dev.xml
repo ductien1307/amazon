@@ -1,0 +1,23 @@
+<suite name="Dev">
+    <test name="Dev">
+        <classes>
+            <class name="amazon.testCases.Login">
+                <methods>
+                    <include name="validAccount"/>
+                </methods>
+            </class>
+
+            <!--<class name="amazon.testCases.SearchResult">
+                <methods>
+                    <include name="searchItems"/>
+                </methods>
+            </class>
+
+            <class name="amazon.testCases.Cart">
+                <methods>
+                    <include name="verifyCart"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>

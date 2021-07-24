@@ -10,16 +10,15 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
+import org.testng.annotations.*;
 import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
 
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
@@ -42,17 +41,17 @@ public class AbstractTest extends AbstractPage {
     public DesiredCapabilities cap = null;
 
     @Parameters({"browser", "environment", "headless", "grid"})
-    @BeforeTest
-    public void beforeTest(@Optional String browser, @Optional String environment, @Optional Integer headless, @Optional Integer grid) throws MalformedURLException {
+    @BeforeSuite
+    public void beforeSuite(@Optional String browser, @Optional String environment, @Optional Integer headless, @Optional Integer grid) throws MalformedURLException {
         log = LogManager.getLogger();
         setPathYourOS();
         setDomain(environment);
         openMultiBrowser(browser, headless, grid);
     }
 
-    @AfterTest
-    protected void afterTest() throws IOException, InterruptedException {
-        closeBrowser();
+    @AfterSuite
+    protected void afterSuite() throws IOException, InterruptedException {
+        //closeBrowser();
     }
 
     protected void openMultiBrowser(String browser, Integer headless, Integer grid) throws MalformedURLException {
@@ -76,14 +75,20 @@ public class AbstractTest extends AbstractPage {
                 driver = new RemoteWebDriver(new URL(Domains.HUB), cap);
             } else {
                 driver = new ChromeDriver(optionsChrome);
+                driver.manage().deleteAllCookies();
             }
         } else if (browser.equals("firefox")) {
             WebDriverManager.firefoxdriver().setup();
+            FirefoxOptions optionsFirefox = new FirefoxOptions();
+            optionsFirefox.addArguments("window-size=2000,1500");
+            if (headless == 1) {
+                optionsFirefox.setHeadless(true);
+            }
             if (grid == 1) {
                 cap = DesiredCapabilities.firefox();
                 driver = new RemoteWebDriver(new URL(Domains.HUB), cap);
             } else {
-                driver = new FirefoxDriver();
+                driver = new FirefoxDriver(optionsFirefox);
             }
         } else if (browser.equals("opera")) {
             WebDriverManager.operadriver().setup();
@@ -106,7 +111,6 @@ public class AbstractTest extends AbstractPage {
             Paths.PATH_SCREENSHOT = Paths.PATH_SYSTEM + Paths.PATH_SCREENSHOT_MAC;
             Paths.PATH_DOWNLOAD = Paths.PATH_SYSTEM + Paths.PATH_DOWNLOAD_MAC;
         }
-        System.out.println("Your OS is: " + osName);
     }
 
     protected void closeBrowser() throws InterruptedException, IOException {
@@ -375,7 +379,7 @@ public class AbstractTest extends AbstractPage {
         folder.delete();
     }
 
-    public void takeScreenshot(String screenshotName) throws IOException {
+        public void takeScreenshot(String screenshotName) throws IOException {
         try {
             TakesScreenshot ts = (TakesScreenshot) driver;
             File source = ts.getScreenshotAs(OutputType.FILE);
