@@ -4,7 +4,7 @@
 
     <parameter name="browser" value="chrome"/>
     <parameter name="environment" value="prod"/>
-    <parameter name="headless" value="0"/>
+    <parameter name="headless" value="1"/>
     <parameter name="grid" value="0"/>
 
     <listeners>
