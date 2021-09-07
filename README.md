@@ -13,7 +13,7 @@
 
 
 Pre-conditions
-  - Your cart is empty with account(tienphp@gmail.com/Auto@123)
+  - Your cart is empty with account
   
 
    
